@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+    background:url(/Settimana1Lezione4/assets/img/sfondo.png)
+}
+
+
+header{
+    color: white;
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 160, 198, 1), rgba(3, 109, 134, 1));
+    box-shadow: 1px 1px 10px black;
+}
+
+header ul{
+    padding: 0;
+}
+
+.star{
+    font-size: 0.2em;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover{
+    color: red;
+}
+
+main{
+    width: 95%;
+    margin: 10px auto;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 1px 1px 10px black;
+}
+
+section p:first-of-type{
+    color: #a0a0a0;
+}
+
+.code{
+    border: 1px solid gray;
+    background-color:lightgrey;
+    border-radius: 5%;
+    padding: 0;
+}
+
+#video{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+th{
+    color: white;
+    background-color: blue;
+    font-size: 0.7em;
+}
+
+tr:nth-child(even) {
+    background-color: #DDDDDD;
+  }
+
+  td{
+    padding: 10px 25px;
+  }
+
+  table{
+    border-bottom: 1px solid blue;
+  }
+
+  #newsletter {
+    width: 100%;
+    background-color: lightgrey;
+    color: black;
+  }
+
+  #newsletter h3{
+    text-align: center;
+    padding: 10px;
+  }
+
+  #newsletter p{
+    color: black;
+    margin: 10px;
+  }
+
+  #email{
+    border: none;
+    border-bottom: dotted grey;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #iscrizione{
+    background-color: blue;
+    color: white;
+    margin-left: 0;
+  }
+
+  aside h3{
+    text-align: center;
+  }
+
+  .box{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    border: 1px solid #b0b0b0;
+    padding: 20px 10px;
+    font-weight: bold;
+  }
+  
+  .box a{
+    color: #00a0c6;
+  }
+
+footer{
+    color: white;
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 160, 198, 1), rgb(1, 49, 80));
+    box-shadow: 1px 1px 10px black;
+}
+
+address a{
+    color: violet;
+    font-weight: bold;
+}
+
+
