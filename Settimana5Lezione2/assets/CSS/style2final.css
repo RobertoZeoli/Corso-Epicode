@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #612609;
+}
+
+/* NAVIGATION BAR */
+
+nav{
+    width: 100%;
+    height: 100px;
+    margin: 10px auto;
+    background-color: #FBF7E3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.item{
+    height: 30%;
+    background-color: #FFDF7F;
+    border: 1px solid black;
+    flex-grow: 1;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigItem{
+    flex-grow: 3;
+    height: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 60px;
+}
+
+.bigItem img{
+    width: 30px;
+    height: 30px;
+}
+
+/* PRODUCT CARD */
+
+main{
+    margin: 10px;
+}
+
+h1{
+    font-weight: bold;
+    color: #612609;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#card{
+    width: 45%;
+    height: 300px;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBF7E3;
+    border-radius: 40px;
+}
+
+#partFoto{
+    background-image: url(/assets/imgs/honey.jpg);
+    background-size: cover;
+    flex-grow: 12;
+    border-radius: 40px 40px 0 0;
+}
+
+#partText{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+#text1{
+    flex-direction: column;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #612609;
+}
+
+#text1 p{
+    margin:2px
+}
+
+#text2{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 1.2em;
+    color: #612609;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-grow: 0.3;
+}
+
+#button button{
+    background-color: #FFDF7F;
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+    font-size: 1.2em;
+    color: #612609;
+}
+
+/* Latest News */
+
+aside{
+    color: #612609;
+    margin: 5px;
+    font-size: 1.2em;
+}
+
+#news{
+    background-color: #FBF7E3;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#containImg{
+    background-image: url(/assets/imgs/honey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 5px 0;
+}
