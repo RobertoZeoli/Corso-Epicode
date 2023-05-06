@@ -3,4 +3,58 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+#avatar1 {
+  width: 40px;
+}
+
+.heroLeft div {
+  width: 50%;
+  font-size: 0.8em;
+  margin: 70px auto;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+
+button:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.infoCard div h5,
+.infoCard div p {
+  font-size: 0.9em;
+}
+
+.card-text img {
+  width: 15px;
+}
+
+main,
+footer {
+  background-color: rgb(234, 234, 234);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  color: grey;
+}
+footer a {
+  color: grey;
+  text-decoration: none;
+  margin: 2px;
+}
+
+h3 {
+  margin: 20px 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -13,17 +13,670 @@
 </head>
 
 <body>
+    <div id="container">
+        <!-- NAVBAR -->
 
-    <!-- NAVBAR -->
-    
-    
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <img src="assets/img/logo.svg" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Browse
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Landings
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Accounts
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-flex">
+                    <button class="btn btn-outline-success border-0 bg-grey" type="submit">
+                        <img class="" src="assets/img/bell.svg" alt="iconBell">
+                    </button>
+                    <!-- il dropdown si apre a sinistra della pagina e non riesco a modificarlo -->
+                    <button class="dropdown-toggle btn btn-outline-success border-0" type="submit" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        <img id="avatar1" class="rounded-circle" src="assets/img/avatar-1.jpg" alt="avatar1">
+                    </button>
+                </div>
+            </div>
+        </nav>
 
 
-    <!-- HERO -->
+        <!-- HERO -->
 
-    
+        <div class="hero d-flex bg-primary">
+            <div class="row">
+                <div class="heroLeft col-lg-6 col-sm-12">
+                    <div>
+                        <h1>Welcome Web Students!</h1>
+                        <p>Hand-picked Instructor and expertly crafted courses, designed for the modern students and
+                            entrepreneur</p>
+                        <span><button class="rounded p-2 m-1">Browse Courses</button></span>
+                        <span><button class="rounded p-2 m-1">Are You Instructor?</button></span>
+                    </div>
+                </div>
 
-    <!-- CAROSELLO 1 -->
+
+
+                <div class="heroRight col-lg-6 col-sm-12">
+                    <img class="w-100" src="assets/img/hero-img.png" alt="ragazzo sorridente">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 d-flex p-3 infoCard">
+                    <img class="m-2" src="assets/img/video.svg" alt="icona video">
+                    <div>
+                        <h5 class="m-0">30,000 online courses</h5>
+                        <p class="m-0">Enjoy a variety of fresh topics</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 d-flex p-3 infoCard">
+                    <img class="m-2" src="assets/img/users.svg" alt="icona users">
+                    <div>
+                        <h5 class="m-0">Expert instruction</h5>
+                        <p class="m-0">Find the right instructor for you</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 d-flex p-3 infoCard">
+                    <img class="m-2" s src="assets/img/clock.svg" alt="icona clock">
+                    <div>
+                        <h5 class="m-0">Lifetime access</h5>
+                        <p class="m-0">Learn on your schedule</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <!-- CAROSELLO 1 -->
+            <div class="carosello">
+                <h3 class="mb-2">Recommended for you</h3>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <!-- CARD CAROSELLO 1 -->
+                            <div class="cards-group">
+                                <div class="row justify-content-center">
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-graphql.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-javascript.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-node.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-laravel.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Evito di modificare tutto il testo delle card -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- CAROSELLO 2 -->
+
+            <div class="carosello">
+                <h3 class="m-2">Most popular</h3>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <!-- CARD CAROSELLO 1 -->
+                            <div class="cards-group">
+                                <div class="row justify-content-center">
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-graphql.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-javascript.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-node.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-laravel.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Evito di modificare tutto il testo delle card -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- CAROSELLO 3 -->
+            <div class="carosello">
+                <h3 class="m-2">Trending</h3>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <!-- CARD CAROSELLO 1 -->
+                            <div class="cards-group">
+                                <div class="row justify-content-center">
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-graphql.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-javascript.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-node.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-6">
+                                        <div class="card m-2 p-0 border border-none">
+                                            <img src="assets/img/course-laravel.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title fs-6">GraphQL: Introduction to graphQL for
+                                                    beginners
+                                                </h5>
+                                                <p class="card-text">
+                                                    <img src="assets/img/clock.svg" alt="icona clock">
+                                                    4h 10min
+                                                    <img src="assets/img/bar-chart.svg" alt="logo bar-chart">
+                                                    Advance
+                                                </p>
+                                                <p class="card-text">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    <img class="star" src="assets/img/star.svg" alt="icona stella">
+                                                    2,5 (1500)
+                                                </p>
+                                                <p class="card-text"><strong class="fs-5">$500</strong> <s
+                                                        class="text-secondary fs-6">600</s></p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-muted fs-6">
+                                                    <img class="rounded-circle w-25" src="assets/img/avatar-5.jpg"
+                                                        alt="">
+                                                    Brooklyn Simmons
+                                                    <img class="benchmark" src="assets/img/bookmark.svg"
+                                                        alt="icon benchmark"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Evito di modificare tutto il testo delle card -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <!-- FOOTER -->
+
+        <footer>
+            <div class="sxFooter">2002 Greeks. All Rights Reserved.</div>
+            <div class="dxFooter">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Feedback</a>
+                <a href="#">Support</a>
+            </div>
+        </footer>
 
 
 
@@ -31,8 +684,7 @@
 
 
 
-
-
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
