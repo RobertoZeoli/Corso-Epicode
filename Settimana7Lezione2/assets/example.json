@@ -1,0 +1,13 @@
+{
+    "name": "Roberto",
+    "surname": "Zeoli",
+    "age": "30",
+    "teacher": true,
+    "area": {
+        "region": "Molise"
+    },
+    "skills"{
+        "css": 10,
+        "js": 6
+    },
+}

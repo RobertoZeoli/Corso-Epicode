@@ -1,0 +1,63 @@
+/* FORM NOME */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+form,
+div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#container{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    background-color:lightgrey;
+}
+
+li{
+    font-size: 1.5em;
+}
+
+/* CONTATORE */
+body{
+    background-color: lightgrey;
+}
+
+#contatore{
+    width: 60%;
+    height: 400px;
+    margin: 30px auto;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 100px auto;
+    animation: seconds 1s infinite;
+}
+@keyframes seconds{
+    0%{font-size:large;}
+    50%{font-size: x-large;}
+    100%{font-size: large;}
+}
