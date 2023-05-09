@@ -50,6 +50,13 @@ body{
     background-color: deepskyblue;
     display: flex;
     flex-direction: column;
+    animation: border 1s infinite;
+}
+
+@keyframes border{
+    from{border: none;}
+    50%{border: 2px solid red;}
+    to{border: none;}
 }
 
 p{
@@ -58,6 +65,6 @@ p{
 }
 @keyframes seconds{
     0%{font-size:large;}
-    50%{font-size: x-large;}
+    50%{font-size: xx-large;}
     100%{font-size: large;}
 }
