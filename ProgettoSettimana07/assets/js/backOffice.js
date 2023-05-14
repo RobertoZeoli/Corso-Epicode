@@ -115,3 +115,9 @@ btnElimina.addEventListener('click', function(){
         console.log(err)
     })
 })
+
+//Button reset form
+let btnReset = document.getElementById('btnReset')
+btnReset.addEventListener('click', function(){
+    insertForm.reset()
+})

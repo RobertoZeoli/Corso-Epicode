@@ -130,12 +130,11 @@ label{
 
 #btnInserisci:hover{
     border: 3px solid  darkgreen;
-
 }
 
-/* #btnModifica:hover{
+#btnReset:hover{
     border: 3px solid darkkhaki;
-} */
+}
 
 #btnElimina:hover{
     border: 3px solid darkred;
