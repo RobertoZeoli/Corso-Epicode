@@ -47,3 +47,13 @@ window.onload= ()=> {
 }}
 
 //lascio scritto il codice, ma la GET non mi prende l'oggetto specifico, quindi non riesco a stampare la card tramite JS.
+
+/*
+    Mi da questo errore in console: 
+    TypeError: Cannot read properties of null (reading 'innerHTML')
+    at script.js:39:13
+    at Array.forEach (<anonymous>)
+    at script.js:19:22 
+    
+    script.js:43
+*/
