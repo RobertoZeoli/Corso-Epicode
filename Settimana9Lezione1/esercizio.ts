@@ -1,7 +1,6 @@
-//let giocatore1: number= 5;
-//let giocatore2: number= 8;
-    let giocatore1:string = document.getElementById('giocatore1')
-    let giocatore2:string = document.getElementById('giocatore2')
+let giocatore1: number= 5;
+let giocatore2: number= 8;
+  
 
 console.log(giocatore1);
 console.log(giocatore2);
