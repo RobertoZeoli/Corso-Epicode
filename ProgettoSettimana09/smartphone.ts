@@ -1,3 +1,5 @@
+// INTERFACCIA
+
 interface Registro {
     credito: number;
     numeroChiamate: number;
@@ -8,6 +10,8 @@ interface Registro {
     getNumeroChiamate(): number;
     azzeraChiamate(): void;
 }
+
+// CLASSI
 
 class Primo implements Registro {
     public credito: number;
