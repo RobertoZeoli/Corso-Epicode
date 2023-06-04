@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Todo } from '../models/todo.interface';
 import { ToDosService } from '../to-dos.service';
+import { Todo } from '../models/todo.interface';
 
 
 @Component({
@@ -12,6 +12,7 @@ export class ToDosComponent implements OnInit {
 
   list:string [] = [];
   newItem:string = '';
+  completedItems:any[] =[];
 
   constructor() {}
 
@@ -28,6 +29,11 @@ export class ToDosComponent implements OnInit {
 
   removeItemList(index:number){
     this.list.splice(index,1)
+  }
+
+
+  completeItem(newItem:string){
+    this.completedItems.push(newItem)
   }
 
   ngOnInit(): void {

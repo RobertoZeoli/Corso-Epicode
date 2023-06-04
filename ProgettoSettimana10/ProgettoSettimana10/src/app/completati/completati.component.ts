@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Todo } from '../models/todo.interface';
+import { ToDosComponent } from '../to-dos/to-dos.component';
+
 
 @Component({
   selector: 'app-completati',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompletatiComponent implements OnInit {
 
+
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
