@@ -17,6 +17,7 @@ export class ToDosComponent implements OnInit {
   constructor() {}
 
 
+
   addItemList(){
     if(this.newItem !== ''){
       this.list.push(this.newItem)
