@@ -10,7 +10,7 @@ import { ToDosComponent } from '../to-dos/to-dos.component';
 })
 export class CompletatiComponent implements OnInit {
 
-
+//qui avevo in mente di lavorare sempre con lo stesso array del to-dos component, ma non sono riuscito ad importarlo su questo altro componente.
 
   constructor() { }
 

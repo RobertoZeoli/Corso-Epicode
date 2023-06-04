@@ -12,8 +12,12 @@
   <ul>
     <li *ngFor="let item of list; let i = index">
       {{item}}
-      <button class="m-2 bg-danger" (click)="removeItemList(i)" >X</button>
-      <button class="bg-success" (click)="completeItem(newItem)">✔</button>
+      <button class="m-2 bg-danger" (click)="removeItemList(i)" ><span class="material-symbols-outlined">
+        delete
+        </span></button>
+      <button class="bg-success" (click)="completeItem(newItem)"><span class="material-symbols-outlined">
+        done
+        </span></button>
     </li>
   </ul>
 </div>
