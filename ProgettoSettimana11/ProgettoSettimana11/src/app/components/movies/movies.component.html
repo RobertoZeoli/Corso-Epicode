@@ -1,0 +1,24 @@
+<div id="containerMovies">
+  <h1 class="text-center mb-5">Lista Film</h1>
+
+  <div *ngIf="!movies" class="d-flex justify-content-center">
+    <span class="spinner-border"></span>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!-- reindirizzo i link alla Home giusto per dargli una funzionalità -->
+      <a class="card col-3" [routerLink]="['/']" *ngFor="let movie of movies">
+        <img src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" class="card-img-top" alt="...">
+        <h5 class="card-title text-center">{{movie.title}}</h5>
+        <div class="d-flex justify-content-between align-items-end">
+          <p>Voto: {{movie.vote_average}}</p>
+          <p><span class="material-symbols-outlined">
+              favorite
+            </span></p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</div>

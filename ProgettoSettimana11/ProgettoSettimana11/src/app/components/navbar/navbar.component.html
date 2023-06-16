@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg p-0 bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand p-1" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+      <img src="https://www.smartworld.it/wp-content/uploads/mobile/2016/06/netflix-nuova-icona-800x534.png"
+        alt="logo netflix" style="width: 100px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link d-flex align-items-center" [routerLink]=" ['/movies']" routerLinkActive="active"><span
+            class="material-symbols-outlined me-1">
+            movie
+          </span>Films</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profilo
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-dark" [routerLink]="['/profile/dettagli']">Dettagli</a></li>
+            <li><a class="dropdown-item text-dark" [routerLink]="['/profile/preferiti']">Preferiti</a></li>
+          </ul>
+        </li>
+        <a class="nav-link" [routerLink]="['/login']" routerLinkActive="active">Log In</a>
+        <a class="nav-link" [routerLink]="['/registrazione']" routerLinkActive="active">Registrati</a>
+      </div>
+      <div>
+        <button type="button" id="logout" name="logout" class="p-2">Log Out </button>
+      </div>
+    </div>
+  </div>
+</nav>

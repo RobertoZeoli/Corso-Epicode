@@ -1,0 +1,28 @@
+<div id="containerPage">
+  <div id="sfondoOpaco">
+    <h1>NETFLIX</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-2 col-md-4"></div>
+        <div class="col-8 col-md-4">
+          <div id="form" class="d-flex flex-column p-4">
+            <h3 class="mb-3">Accedi <span class="material-symbols-outlined">
+                person
+              </span></h3>
+            <input type="email" id="email" name="email" placeholder="Inserisci la tua email" class="mb-3">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <div class="d-flex align-items-center mb-5">
+              <input class="me-2" type="checkbox" name="checkbox" id="checkbox"> Ricordami
+            </div>
+            <p>Non hai un account Netflix? <a [routerLink]="['/registrazione']">Registrati</a></p>
+            <input type="button" name="accedi" id="accedi" value="ACCEDI">
+
+          </div>
+        </div>
+        <div class="col-2 col-md-4"></div>
+      </div>
+    </div>
+  </div>
+
+</div>

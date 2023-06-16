@@ -1,0 +1,33 @@
+<div id="containerPage">
+  <div id="sfondoOpaco">
+    <h1 class="mb-3">NETFLIX</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-2 col-md-4"></div>
+        <div class="col-8 col-md-4">
+          <form #form="ngForm" (submit)="registra(form)" id="form" class="d-flex flex-column p-4">
+            <h3 class="mb-3">Registrati <span class="material-symbols-outlined">
+                person_add
+              </span></h3>
+            <input type="text" id="nome" name="nome" placeholder="Nome" class="mb-3 form-control" required ngModel>
+            <input type="text" id="cognome" name="cognome" placeholder="Cognome" class="mb-3 form-control" required
+              ngModel>
+            <input type="email" id="email" name="email" placeholder="Inserisci la tua email" class="mb-3 form-control"
+              required ngModel>
+            <input type="password" id="password" name="password" placeholder="Password" class="mb-3 form-control"
+              required ngModel>
+            <div class="d-flex align-items-center mb-2">
+              <input class="me-2" type="checkbox" name="checkbox" id="checkbox" required> Accetta termini e
+              condizioni
+            </div>
+            <input type="submit" name="registrati" id="registrati" value="REGISTRATI">
+
+          </form>
+        </div>
+        <div class="col-2 col-md-4"></div>
+      </div>
+    </div>
+  </div>
+
+</div>

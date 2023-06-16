@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Todo } from '../models/todo.interface';
-import { ToDosComponent } from '../to-dos/to-dos.component';
+import { ToDosService } from '../to-dos.service';
 
 
 @Component({
@@ -10,9 +10,12 @@ import { ToDosComponent } from '../to-dos/to-dos.component';
 })
 export class CompletatiComponent implements OnInit {
 
-//qui avevo in mente di lavorare sempre con lo stesso array del to-dos component, ma non sono riuscito ad importarlo su questo altro componente.
+list:Todo[] = [];
 
-  constructor() { }
+  constructor(private todoSrv:ToDosService) {
+    this.todoSrv.getTodos().then(lista => this.list = lista.filter(task => task.completed));
+    console.log(this.list);
+   }
 
   ngOnInit(): void {
 

@@ -1,0 +1,60 @@
+#container{
+    background-color: #181818;
+}
+
+#hero{
+  margin-bottom: 150px;
+    img{
+      width: 50vw;
+      margin: 0 30px;
+    };
+}
+
+h1, h5{
+  width: 50%;
+  margin: 0 30px;
+  color: white;
+}
+
+a{
+  border: 1px solid #EC2724;
+  background-color: transparent;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #EC2724;
+  cursor: pointer;
+}
+
+.card{
+  background-color: transparent;
+  color: white;
+  border: none;
+    .btn{
+      background-color: transparent;
+      border: 1px solid #EC2724;
+    }
+    .btn:hover{
+      background-color: #EC2724;
+    }
+}
+
+#containerCards{
+  margin-bottom: 150px;
+}
+
+#infoServizio{
+  div{
+    img{
+      border-radius: 5%;
+      box-shadow: 0px 0px 15px 5px black;
+    }
+    h3{
+      color: white;
+    }
+  }
+}

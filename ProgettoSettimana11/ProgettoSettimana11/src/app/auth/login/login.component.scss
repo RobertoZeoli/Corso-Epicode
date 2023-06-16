@@ -1,0 +1,55 @@
+#containerPage{
+  background-image: url('https://staticfanpage.akamaized.net/wp-content/uploads/sites/25/2022/11/netflix_il_piano_di_abbonamento-1200x675.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#sfondoOpaco{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+h1{
+  color: red;
+  font-size: 4em;
+  margin-bottom: 50px;
+}
+
+#form{
+  box-shadow: 0px 0px 5px 2px red;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+h3{
+  color: red;
+}
+
+input{
+  height: 3em;
+  background-color: #212529;
+}
+
+#accedi{
+  background-color: transparent;
+  border: 1px solid red;;
+  border-radius: 5px;
+  color: white;
+}
+
+#accedi:hover{
+  background-color: red;
+}
+
+p{
+  a{
+
+    color: red;
+  }
+}
+
+input{
+  border: none;
+}
+

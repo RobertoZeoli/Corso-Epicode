@@ -7,7 +7,7 @@ import { Todo } from './models/todo.interface';
 export class ToDosService {
 
   list:Todo [] = [];
-  completed:Todo [] = [];
+
 
   constructor() { }
 
@@ -22,14 +22,28 @@ export class ToDosService {
   }
 
 
-  addListItem(newItem: Todo): Promise<void> {
+  addListItem(newItem: Todo): Promise<Todo> {
     return new Promise((resolve) => {
       setTimeout(() => {
         this.list.push(newItem);
-        resolve();
+        console.log(this.list);
+        resolve(newItem);
       }, 2000);
     });
   }
+
+  completaItem(task:Partial<Todo>,id:number):Promise<Todo>{
+    return new Promise((resolve)=>{
+      setTimeout(()=>{
+        this.list.map((todo)=>{
+          todo.id == id ? {...todo, ...task}:todo;
+        });
+        const aggiornato = this.list.find((todo)=> todo.id == id);
+        resolve(aggiornato!);
+      })
+    })
+  }
+
 /*
   removeTodoById(id: number): Promise<Todo> {
     return new Promise((resolve, reject) => {
@@ -46,23 +60,6 @@ export class ToDosService {
   }
 */
 
-  getCompletedTodos(): Todo[] {
-    return this.completed;
-  }
-
-  addToCompleted(newItem: Todo): void {
-    this.completed.push(newItem);
-  }
-
-  moveToCompleted(id: number): void {
-    setTimeout(() => {
-      const index = this.list.findIndex((newItem) => newItem.id === id);
-      if (index !== -1) {
-        const todo = this.list.splice(index, 1)[0];
-        this.completed.push(todo);
-      }
-    }, 2000);
-  }
 
   }
 

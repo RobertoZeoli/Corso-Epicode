@@ -11,11 +11,11 @@
   <h4 *ngIf="list.length === 0">Nessun elemento nella lista!</h4>
   <ul>
     <li *ngFor="let item of list; let i = index">
-      {{item}}
+      {{item.title}}
       <button class="m-2 bg-danger" (click)="removeItemList(i)" ><span class="material-symbols-outlined">
         delete
         </span></button>
-      <button class="bg-success" (click)="completeItem(newItem)"><span class="material-symbols-outlined">
+      <button class="bg-success" (click)="completeItem(item,i)"><span class="material-symbols-outlined">
         done
         </span></button>
     </li>

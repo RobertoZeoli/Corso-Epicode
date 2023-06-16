@@ -10,18 +10,20 @@ import { Todo } from '../models/todo.interface';
 })
 export class ToDosComponent implements OnInit {
 
-  list:string [] = [];
+  list:Todo [] = [];
   newItem:string = '';
   completedItems:any[] =[];
 
-  constructor() {}
+  constructor(private todoSrv:ToDosService) {
+    this.todoSrv.getTodos().then(lista => this.list = lista.filter(task => !task.completed))
+  }
 
 
 
-  addItemList(){
+  async addItemList(){
     if(this.newItem !== ''){
-      this.list.push(this.newItem)
-      this.newItem = ''
+     const nuovo = await this.todoSrv.addListItem({title:this.newItem,completed:false});
+      this.list.push(nuovo)
     }else{
       alert('Inserire nuovo elemento nella lista!!!')
     }
@@ -33,8 +35,9 @@ export class ToDosComponent implements OnInit {
   }
 
 
-  completeItem(newItem:string){
-    this.completedItems.push(newItem)
+  async completeItem(item: Todo|any,index:number){
+    await this.todoSrv.completaItem({completed:true},item.id);
+    this.list.splice(index,1);
   }
 
   ngOnInit(): void {

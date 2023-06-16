@@ -1,0 +1,32 @@
+<div class="container">
+  <h1 class="text-center">TD FORM</h1>
+
+    <form class="d-flex flex-column" #contenitoreForm="ngForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" [ngModel]="user.name" #name="ngModel">
+
+      <label for="alterEgo">AlterEgo</label>
+      <input type="text" id="alterego" [ngModel]="user.alterEgo" #name="ngModel">
+
+      <label for="power">Power</label>
+      <select name="power" id="power" [ngModel]="user.power">
+        <option value="">---</option>
+        <option value="superforza">Superforza</option>
+        <option value="invisibilita">Invisibilità</option>
+        <option value="raggilaser">Raggi Laser</option>
+        <option value="indistruttibilita">Indistruttibilità</option>
+      </select>
+
+      <label for="enemy">Enemy</label>
+      <input type="text" [ngModel]="user.enemy">
+
+      <label for="planet">Planet</label>
+      <input type="text" [ngModel]="user.planet">
+
+      <label for="weakness">Weakness</label>
+      <input type="text" [ngModel]="user.weakness">
+
+      <input class="mt-4 btn btn-primary col-1" type="submit" name="Invia" id="invia" (ngSubmit)="submitForm()">
+    </form>
+
+</div>

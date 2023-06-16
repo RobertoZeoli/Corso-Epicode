@@ -1,0 +1,21 @@
+#logout{
+  background-color: transparent;
+  color: white;
+  border: 1px solid #EC2724;
+  transition: all 500ms ;
+  border-radius: 5px;
+}
+
+#logout:hover{
+  background-color: #EC2724;
+}
+
+nav{
+  background-color: black;
+    a{
+      color: white;
+    }
+    img{
+      border-radius: 5px;
+    }
+}
